@@ -18,11 +18,11 @@ public class SelectionSort {
 		}
 		System.out.println();
 
-		// Sorting using Insertion sort Algorithm
+		// Sorting using Selection sort Algorithm
 
-		for(int i=0;i<a.length;i++) {
+		for(int i=0;i<a.length-1;i++) {
 			int index = i;
-			for(int j=i;j<a.length;j++) {
+			for(int j=i+1;j<a.length;j++) {
 				if(a[j]<a[index]) {
 					index = j;
 				}
