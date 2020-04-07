@@ -14,7 +14,7 @@ public class LongestCommonSubsequence {
 		// String s2 = "GXTXAYB";
 
 		String s1 = "manish";
-		String s2 = "anish";
+		String s2 = "anih";
 
 		char[] X = s1.toCharArray();
 		char[] Y = s2.toCharArray();
